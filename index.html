@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAT XP</title>
+    <link rel="stylesheet" href="assets/estilos/estilos.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
+    <script src="assets/fontawesome-free-5.15.4-web/js/all.min.js"></script>
+    <script src="assets/scripts/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="div_logo">
+            <img src="assets/fotos/logo.png" alt="Logo empresa" onclick="fInicio()">
+        </div>
+        <div id="div_nombre">
+            <h1>EAT XP</h1>
+        </div>
+        <div id="div_iconos">
+            <span onclick="fUsuario()"><i class="fas fa-user"></i></span>
+            <span onclick="fLocate()"><i class="fas fa-search-location"></i></span>
+        </div>
+    </header>
+    <nav>
+        <a href="#" onclick="fMenu()">Menú</a>
+        <a href="#" onclick="fTienda()">Nuestra tienda</a>
+        <a href="#" onclick="fCalendario()">Calendario</a>
+    </nav>
+    <section>
+        <div class="menus">
+            <div class="div_img"><img src="assets/fotos/hamburguesa_pikachu.webp" alt=""></div>
+            <div class="div_datos">
+                <div class="div_nombre_comida">Hamburguesa eléctrica</div>
+                <div class="div_precio">15€</div>
+                <div class="div_descripcion">Hamburguesa inspirada en Pikachu con queso en forma de rayos y nachos como
+                    orejas</div>
+            </div>
+        </div>
+        <div class="menus">
+            <div class="div_img"><img src="assets/fotos/hamburguesa_charmander.webp" alt=""></div>
+            <div class="div_datos">
+                <div class="div_nombre_comida">Hamburguesa de fuego</div>
+                <div class="div_precio">15€</div>
+                <div class="div_descripcion">Hamburguesa inspirada en Charmander con un pan tostado, jalapeños y salsa
+                    picante simulando llamas</div>
+            </div>
+        </div>
+        <div class="menus">
+            <div class="div_img"><img src="assets/fotos/ensalada_bulbasur.webp" alt=""></div>
+            <div class="div_datos">
+                <div class="div_nombre_comida">Ensalada natural</div>
+                <div class="div_precio">15€</div>
+                <div class="div_descripcion">Ensalada inspirada en Bulbasaur con aguacate, hojas verdes y detalles en
+                    forma de criatura vegetal</div>
+            </div>
+        </div>
+        <div class="menus">
+            <div class="div_img"><img src="assets/fotos/postre_eevee.webp" alt=""></div>
+            <div class="div_datos">
+                <div class="div_nombre_comida">Postre caramelizado</div>
+                <div class="div_precio">15€</div>
+                <div class="div_descripcion">Postre inspirado en Eevee con galletas como orejas y caramelo derretido
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="div_modal_menu"></div>
+    <div id="div_modal_tienda"></div>
+    <div id="div_modal_calendario">
+        <img src="assets/fotos/calendario.webp" alt="Calendario">
+    </div>
+    <div id="div_modal_locate">
+        <div class="div_contenedor">
+            <div id="div_texto">Nos situamos en el barrio de Malasaña-Universidad,
+                <br> cerca de la plaza de la Luna
+            </div>
+            <div>
+                <img src="assets/fotos/local.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="div_modal_usuario">
+        <div class="div_contenedor">
+            <div id="div_usuario">
+                <div id="div_img_user"><img src="assets/fotos/usuario.png" alt="Imagen usuario"></div>
+                <div id="div_nombre_user">Valeria González</div>
+            </div>
+            <div id="div_datos_usuario">
+                <div id="div_info">Cuenta de Valeria, socia de Eat XP</div>
+                <div id="div_correo">Correo electrónico: valeriaeatxp@gmail.com</div>
+                <div id="div_telefono">Teléfono: +34 123 45 67 89</div>
+                <div id="div_puntos">Puntos de fidelización: 658 puntos</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="div_socios">Valeria González, Kevin Nogales, Nor Qssabtai y María Crespo</div>
+        <div id="div_developer">&copy;Claudia Candelas</div>
+    </footer>
+</body>
+
+</html>
